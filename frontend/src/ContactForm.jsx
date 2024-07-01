@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './index.css';
 
 const ContactForm = ({ existingContact = {}, updateCallback}) => {
     const [firstName, setFirstName] = useState(existingContact.firstName || "");
